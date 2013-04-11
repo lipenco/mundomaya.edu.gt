@@ -222,7 +222,7 @@ input[type="color"]:hover,
 ------------------------- */
 [class^="icon-"],
 [class*=" icon-"] {
-  background-image: url(assets/img/glyphicons-halflings.png);
+  background-image: url(../img/stamp.png);
 }
 [class*="icon-tpl"] {
   background-image: url(assets/img/intro-icons.png);
@@ -468,16 +468,21 @@ input[type="color"]:hover,
 .introducing .section-img {
   border-color: #dfdacd;
   background: #dfdacd;
+  background-image: url("../img/stamp.png");
+  background-size: 100%;
 
 }
+
 .introducing .block:hover .section-img {
   border-color: #CAC2AD;
   background: #CAC2AD;
+  background-image: url("../img/stamp2.png");
+    background-size: 100%;
 }
 /* Portfolio
 ------------------------- */
 .section.portfolio {
-  background: url( );
+  background: url();
   border-width: 1px 0;
   border-style: solid;
   border-color: #FFFBEF;
@@ -573,13 +578,16 @@ input[type="color"]:hover,
 /* Clients
 ------------------------- */
 .section.clients {
-  background-image: url(../img/pattern.jpg);
+  background-image: url(../img/pattern9.png);
   border-width: 1px 0;
   border-style: solid;
   border-color: #FFFBEF;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
+  background-repeat: none;
+ background-size: 100%, 100%;
+
 }
 .section.clients .section-title h1 {
   color: #9f7000;
@@ -718,7 +726,7 @@ body[class*="landing"] .wpcf7 .uneditable-input:focus {
   background-color: #ddd7c5;
 }
 #landingpage {
-  background-image: url(assets/img/pattern-1.jpg);
+  background-image: url(../img/pattern9.png);
   border: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
