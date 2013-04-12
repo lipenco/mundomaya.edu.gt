@@ -482,13 +482,13 @@ input[type="color"]:hover,
 /* Portfolio
 ------------------------- */
 .section.portfolio {
-  background: url();
+  background: url(../img/pattern13.jpg);
   border-width: 1px 0;
   border-style: solid;
   border-color: #FFFBEF;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.55) inset;
 }
 .portfolio .section-title h1 {
   color: #95412c;
@@ -510,7 +510,7 @@ input[type="color"]:hover,
   background: #f78f76;
 }
 .portfolio .section-content .carousel-nav ul {
-  background: url(assets/img/pattern-3.jpg);
+  background: url(../img/pattern13.jpg);
 }
 .portfolio .section-content .carousel-nav li {
   border-color: #a94831;
@@ -578,7 +578,7 @@ input[type="color"]:hover,
 /* Clients
 ------------------------- */
 .section.clients {
-  background-image: url(../img/pattern9.png);
+  background-image: url(../img/pattern.jpg);
   border-width: 1px 0;
   border-style: solid;
   border-color: #FFFBEF;
