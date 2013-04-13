@@ -39,6 +39,8 @@ h6 {
   font-family: 'homestead_regularregular', serif;
   font-weight: normal;
 }
+
+
 /* Links
 ------------------------- */
 a {
@@ -319,6 +321,51 @@ input[type="color"]:hover,
   background-image: url("");
   size: 30px;
 }
+
+#title {
+  position: absolute;
+  top:10px;
+  width: 300px;
+
+
+}
+
+#title img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+#title h2 {
+
+  display: inline;
+
+  position: relative;
+
+  font: 30px 'homestead_regularregular', serif;
+
+  letter-spacing: 2px;
+
+  color: #308f8c; 
+  
+
+}
+
+
+
+#title h2:after {
+
+  content: "Mundo";
+
+  position: absolute; left: 38px; 
+
+  font-color: #308f8c;
+ 
+   font-weight: 100;
+
+}
+  
+
 /* Select themes
 ------------------------- */
 /* select pages
@@ -542,12 +589,13 @@ input[type="color"]:hover,
   overflow: hidden;
   position: relative;
   width: 180px;
+  border-radius : 100%;
 }
 .about .thumbnail:hover > a {
   background-color: #CAC2AD;
 }
 .about .thumbnail > a:before {
-  background-image: url("assets/img/avatar-mask.png");
+  background-image: url("");
   content: "";
   height: 180px;
   left: 0;
@@ -556,16 +604,18 @@ input[type="color"]:hover,
   z-index: 10;
 }
 .about .thumbnail img {
-  height: 180px !important;
+  height: 180px ;
   left: 50% !important;
   margin-left: -120px;
   max-width: none;
-  width: 240px !important;
+  width: 240px ;
   position: absolute;
+
 }
 .about .team .personal:hover h3 a {
   color: #ff7454;
 }
+
 .about .team .personal:hover .icon-facebook-2 {
   background-position: 0 -21px;
 }
