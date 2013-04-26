@@ -119,6 +119,7 @@ input[type="color"]:hover,
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+ 
 }
 .btn-large {
   font-size: 14px;
@@ -128,6 +129,7 @@ input[type="color"]:hover,
 .btn-inverse {
   border-color: #444035;
   background: #444035;
+
 }
 .btn-primary:hover,
 .btn-inverse:hover,
@@ -454,6 +456,8 @@ input[type="color"]:hover,
   margin: 0 0 10px;
   font-size: 11.9px;
 }
+
+
 /*
  * SPECIAL STYLES
 ---------------------------------------------------------- */
@@ -461,15 +465,17 @@ input[type="color"]:hover,
 ------------------------- */
 .section.header {
   background-image: url(../img/pattern2.jpg);
-  border-width: 1px 0;
+  border-width:  0 ;
   border-style: solid;
   border-color: #FFFBEF;
   left: 0px;
   top: 0px;
+
   z-index: -20;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) inset;
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
+ 
 
 }
 
@@ -482,12 +488,19 @@ input[type="color"]:hover,
   height: 150px;
   width: 300px;
   text-align: center;
-  position: absolute;
-  top: 465;
-  left: 500;
+  
  clear: both;
   z-index: 20;
+  display: inline-block;
+padding:  0;
+margin-bottom: 0;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+vertical-align: middle;
 }
+
+
 #mayan2 {
   height: 245px;
   width: 290px;
@@ -509,6 +522,12 @@ input[type="color"]:hover,
 }
 .header .hero-unit p {
   color: #3aaca9;
+  margin-bottom: 60px;
+}
+
+.header {
+  padding-bottom: 0px;
+
 }
 /* Introducing
 ------------------------- */
@@ -647,7 +666,7 @@ input[type="color"]:hover,
 }
 .section-content .testimonials {
   padding-bottom: 50px;
-  border-bottom: 1px solid #dcb861;
+ 
 }
 .section-content .testimonials .testimonial {
   background: #ffdd8b;
