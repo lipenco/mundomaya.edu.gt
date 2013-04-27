@@ -417,9 +417,11 @@ input[type="color"]:hover,
 ---------------------------------------------------------- */
 /* Section title
 ------------------------- */
+
 .section-title {
   text-align: center;
   margin-bottom: 40px;
+
 }
 .section-title h1 {
   font-size: 46px;
@@ -555,7 +557,10 @@ vertical-align: middle;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25) inset;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.55) inset;
+
 }
+
+
 .portfolio .section-title h1 {
   color: #95412c;
 }
@@ -608,7 +613,7 @@ vertical-align: middle;
   overflow: hidden;
   position: relative;
   width: 180px;
-  border-radius : 100%;
+  
 }
 .about .thumbnail:hover > a {
   background-color: #CAC2AD;
@@ -644,10 +649,12 @@ vertical-align: middle;
 .about .team .personal:hover .icon-flickr-2 {
   background-position: -43px -21px;
 }
+
+
 /* Clients
 ------------------------- */
 .section.clients {
-  background-image: url(../img/pattern.jpg);
+  background-color:  #efebe0;
   border-width: 1px 0;
   border-style: solid;
   border-color: #FFFBEF;
@@ -663,15 +670,24 @@ vertical-align: middle;
 }
 .section.clients .section-title p {
   color: #a9862b;
+
 }
 .section-content .testimonials {
   padding-bottom: 50px;
  
 }
 .section-content .testimonials .testimonial {
-  background: #ffdd8b;
-  border-color: #ffdd8b;
-  color: #9f7000;
+  background-image: url(../img/pattern2.jpg);
+  border-width:  0 ;
+  border-style: solid;
+  border-color: #FFFBEF;
+  left: 0px;
+  top: 0px;
+
+  z-index: -20;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
 }
 .section-content .testimonials .testimonial:hover {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
@@ -685,10 +701,18 @@ vertical-align: middle;
   -webkit-box-shadow: 0 1px 0 #ffffff;
   -moz-box-shadow: 0 1px 0 #ffffff;
   box-shadow: 0 1px 0 #ffffff;
+  height: 80px;
+  width: 80px;
+
+}
+
+.testimonial p {
+  padding-left: 10px;
 }
 .section-content .testimonials .testimonial blockquote small {
   color: #a9862b;
   font-size: 10.5px;
+
 }
 .section-content .testimonials .testimonial blockquote cite {
   color: #ff7454;
@@ -704,7 +728,18 @@ vertical-align: middle;
 /* Contact
 ------------------------- */
 .section.contact {
-  background: url(assets/img/dash-line.jpg) repeat-x left top;
+   background-image: url(../img/pattern2.jpg);
+  border-width:  0 ;
+  border-style: solid;
+  border-color: #FFFBEF;
+  left: 0px;
+  top: 0px;
+
+  z-index: -20;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
+
 }
 .contact .map {
   padding: 0;
@@ -728,8 +763,8 @@ vertical-align: middle;
 /* Footer
 ------------------------- */
 #colophon {
-  background: transparent;
-  color: #a0977d;
+  
+  background-color:  #efebe0;
 }
 #colophon .copyright {
   border-top-color: #d8d5cb;
@@ -822,50 +857,5 @@ body[class*="landing"] .wpcf7 .uneditable-input:focus {
 @media (max-width: 320px) {
   #landingpage .hero-unit h1 {
     font-size: 31px;
-  }
-}
-/* 
- * 404 
----------------------------------------------------------- */
-.error404 {
-  background: url("assets/img/pattern-1.jpg");
-}
-.error404 #page404 {
-  background: none;
-  box-shadow: none;
-  border: none;
-}
-.error404 #page404 h1 {
-  background: url(assets/img/404.png) center center no-repeat;
-  margin: 0;
-}
-.error404 #page404 h2 {
-  font-size: 56px;
-  color: #444035;
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.3);
-}
-.error404 #page404 span {
-  font-size: 11.9px;
-  font-weight: 600;
-  color: #a0977d;
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.3);
-}
-.error404 #page404 a {
-  text-decoration: underline;
-  color: #a0977d;
-}
-.error404 #page404 a:hover {
-  color: #ff7454;
-}
-.error404 #colophon .copyright {
-  border-color: #d8d5cb;
-  color: #a0977d;
-}
-.error404 #colophon a {
-  color: #7f7b72;
-}
-@media (max-width: 599px) {
-  .error404 #page404 h2 {
-    font-size: 47px;
   }
 }
