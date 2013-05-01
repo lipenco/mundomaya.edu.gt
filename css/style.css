@@ -651,6 +651,8 @@ vertical-align: middle;
 }
 
 
+
+
 /* Clients
 ------------------------- */
 .section.clients {
@@ -763,9 +765,9 @@ vertical-align: middle;
 /* Footer
 ------------------------- */
 #colophon {
-  
-  background-color:  #efebe0;
+background-color: #efebe0;
 }
+
 #colophon .copyright {
   border-top-color: #d8d5cb;
 }
@@ -774,6 +776,10 @@ vertical-align: middle;
 }
 #colophon .copyright a:hover {
   color: #ff7454;
+}
+
+.footer {
+  background-color: #efebe0;
 }
 /* 
  * LANDING PAGE
