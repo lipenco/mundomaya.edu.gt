@@ -756,7 +756,7 @@ vertical-align: middle;
   width: 100%;
 }
 .ie8 .contact .map {
-  border: 1px solid #D8D5CB;
+  border: 0px solid #D8D5CB;
   padding: 2px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
