@@ -174,7 +174,7 @@ input[type="color"]:hover,
 .arrow-down {
   opacity: 0.25;
   filter: alpha(opacity=25);
-  background-image: ("img/mayan2.png")
+  background-image: ("../img/mayan2.png")
   background-repeat: no-repeat;
 }
 /* Social
@@ -226,7 +226,7 @@ input[type="color"]:hover,
 ------------------------- */
 [class^="icon-"],
 [class*=" icon-"] {
-  background-image: url(img/stamp.png);
+  background-image: url(../img/stamp.png);
 }
 [class*="icon-tpl"] {
   background-image: url(assets/img/intro-icons.png);
@@ -466,7 +466,7 @@ input[type="color"]:hover,
 /* Hearder
 ------------------------- */
 .section.header {
-  background-image: url(img/pattern2.jpg);
+  background-image: url(../img/pattern2.jpg);
   border-width:  0 ;
   border-style: solid;
   border-color: #FFFBEF;
@@ -536,7 +536,7 @@ vertical-align: middle;
 .introducing .section-img {
   border-color: #dfdacd;
   background: #dfdacd;
-  background-image: url("img/stamp.png");
+  background-image: url("../img/stamp.png");
   background-size: 100%;
 
 }
@@ -544,13 +544,13 @@ vertical-align: middle;
 .introducing .block:hover .section-img {
   border-color: #CAC2AD;
   background: #CAC2AD;
-  background-image: url("img/stamp2.png");
+  background-image: url("../img/stamp2.png");
     background-size: 100%;
 }
 /* Portfolio
 ------------------------- */
 .section.portfolio {
-  background: url(img/pattern13.jpg);
+  background: url(../img/pattern13.jpg);
   border-width: 1px 0;
   border-style: solid;
   border-color: #FFFBEF;
@@ -581,7 +581,7 @@ vertical-align: middle;
   background: #f78f76;
 }
 .portfolio .section-content .carousel-nav ul {
-  background: url(img/pattern13.jpg);
+  background: url(../img/pattern13.jpg);
 }
 .portfolio .section-content .carousel-nav li {
   border-color: #a94831;
@@ -679,7 +679,7 @@ vertical-align: middle;
  
 }
 .section-content .testimonials .testimonial {
-  background-image: url(img/pattern2.jpg);
+  background-image: url(../img/pattern2.jpg);
   border-width:  0 ;
   border-style: solid;
   border-color: #FFFBEF;
