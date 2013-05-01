@@ -13,8 +13,8 @@
  */
 @font-face {
   font-family: 'homestead_regularregular';
-  src: url('fonts/Homestead-Regular.ttf');
-  src: url('fonts/Homestead-Regular.ttf') format('embedded-opentype'), url('fonts/Homestead-Regular.ttf') format('woff'), url('fonts/Homestead-Regular.ttf') format('truetype'), url('fonts/Homestead-Regular.ttf') format('svg');
+  src: url('../fonts/Homestead-Regular.ttf');
+  src: url('../fonts/Homestead-Regular.ttf') format('embedded-opentype'), url('../fonts/Homestead-Regular.ttf') format('woff'), url('../fonts/Homestead-Regular.ttf') format('truetype'), url('../fonts/Homestead-Regular.ttf') format('svg');
   font-weight: normal;
   font-style: normal;
 }
