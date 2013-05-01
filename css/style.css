@@ -14,7 +14,7 @@
 @font-face {
   font-family: 'homestead_regularregular';
   src: url('../fonts/Homestead-Regular.ttf');
-  src: url('../fonts/Homestead-Regular.ttf') format('embedded-opentype'), url('../fonts/Homestead-Regular.ttf') format('woff'), url('../fonts/Homestead-Regular.ttf') format('truetype'), url('../fonts/Homestead-Regular.ttf') format('svg');
+  src: url('assets/font/homestead-regular-webfont.eot?#iefix') format('embedded-opentype'), url('assets/font/homestead-regular-webfont.woff') format('woff'), url('../fonts/homestead-regular.ttf') format('truetype'), url('assets/font/homestead-regular-webfont.svg#homestead_regularregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -756,7 +756,7 @@ vertical-align: middle;
   width: 100%;
 }
 .ie8 .contact .map {
-  border: 0px solid #D8D5CB;
+  border: 1px solid #D8D5CB;
   padding: 2px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
