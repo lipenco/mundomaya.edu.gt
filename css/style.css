@@ -13,8 +13,8 @@
  */
 @font-face {
   font-family: 'homestead_regularregular';
-  src: url('../fonts/Homestead-Regular.ttf');
- 
+  src: url('../fonts/Homestead-Display.ttf');
+
   /* src: url('assets/font/homestead-regular-webfont.eot?#iefix') 
   format('embedded-opentype'), url('assets/font/homestead-regular-webfont.woff') 
   format('woff'), url('../fonts/homestead-regular.ttf') 
@@ -43,6 +43,8 @@ h6 {
   font-family: 'homestead_regularregular', serif;
   font-weight: normal;
 }
+
+
 
 
 /* Links
@@ -222,6 +224,8 @@ input[type="color"]:hover,
 .social li:hover [class*="icon-flickr"] {
   background-position: -43px -21px;
 }
+
+
 /* Modal
 ------------------------- */
 /* Grayscale
