@@ -185,45 +185,7 @@ input[type="color"]:hover,
 }
 /* Social
 ------------------------- */
-.social [class^="icon-"] {
-  background: url(assets/img/social-icon.png) no-repeat;
-}
-.social .icon-facebook-1 {
-  background-position: 0 0;
-}
-.social .icon-twitter-1 {
-  background-position: -22px 0;
-}
-.social .icon-flickr-1 {
-  background-position: -43px 0;
-}
-.social .icon-facebook-2 {
-  background-position: 0 0;
-}
-.social .icon-twitter-2 {
-  background-position: -22px 0;
-}
-.social .icon-flickr-2 {
-  background-position: -43px 0;
-}
-.social .icon-facebook-3 {
-  background-position: 0 0;
-}
-.social .icon-twitter-3 {
-  background-position: -22px 0;
-}
-.social .icon-flickr-3 {
-  background-position: -43px 0;
-}
-.social li:hover [class*="icon-facebook"] {
-  background-position: 0 -21px;
-}
-.social li:hover [class*="icon-twitter"] {
-  background-position: -21px -21px;
-}
-.social li:hover [class*="icon-flickr"] {
-  background-position: -43px -21px;
-}
+
 
 
 /* Modal
@@ -232,13 +194,19 @@ input[type="color"]:hover,
 ------------------------- */
 /* Icon
 ------------------------- */
-[class^="icon-"],
-[class*=" icon-"] {
-  background-image: url(../img/stamp.png);
+
+
+.icon-map-marker {
+
+background-image: url("../img/glob2.png");
 }
-[class*="icon-tpl"] {
-  background-image: url(assets/img/intro-icons.png);
+.contact .info address [class*="icon"] {
+position: absolute;
+left: 5px;
+top: 1px;
 }
+
+
 /* Contact form 7
 ------------------------- */
 .wpcf7-not-valid {
@@ -609,7 +577,7 @@ vertical-align: middle;
   color: #ff7454;
 }
 .project-data [class*="icon-"] {
-  background-image: url(assets/img/glyphicons-halflings-white.png);
+  background-image: url(../img/icons.png);
 }
 /* About
 ------------------------- */
@@ -648,15 +616,6 @@ vertical-align: middle;
   color: #ff7454;
 }
 
-.about .team .personal:hover .icon-facebook-2 {
-  background-position: 0 -21px;
-}
-.about .team .personal:hover .icon-twitter-2 {
-  background-position: -21px -21px;
-}
-.about .team .personal:hover .icon-flickr-2 {
-  background-position: -43px -21px;
-}
 
 
 
@@ -749,6 +708,19 @@ vertical-align: middle;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.55) inset;
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) inset;
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+.section.contact img {
+background-image: url(../img/face.png);
+background-repeat: no-repeat;
+height: 50px;
+width: 50px;
+margin-top: 
+
+}
+.section.contact img:hover {
+background-image: url(../img/face2.png);
 
 }
 .contact .map {
