@@ -241,7 +241,7 @@ function calculateScroll() {
     var rangeTop  = 500;
     var rangeBottom = 500;
 
-    $('#navigation').find('a').each(function(){
+    $('#nav').find('a').each(function(){
       contentTop.push( $( $(this).attr('href') ).offset().top );
       contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
     })
@@ -249,9 +249,9 @@ function calculateScroll() {
     $.each( contentTop, function(i){
 
       if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
-        $('#navigation li')
-        .removeClass('current')
-        .eq(i).addClass('current');
+        $('#nav li')
+        .removeClass('active')
+        .eq(i).addClass('active');
       }
 
     })
