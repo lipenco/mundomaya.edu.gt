@@ -13,6 +13,7 @@
 
 
 <script type='text/javascript' src='http://code.jquery.com/jquery-1.8.3.min.js'></script> 
+<script type='text/javascript' src='js/bootstrap.js'></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 <script src="js/scroll.js"></script>
 <script type='text/javascript' src='http://code.jquery.com/jquery-1.8.3.min.js'></script>
@@ -315,7 +316,20 @@ dsfsdfsdf, Guatemala 90012</address>
 </div>
 <div class="contact-form span6"><div class="wpcf7" id="wpcf7-f213-t1-o1">
 
-<div class="ss-form"><form action="https://docs.google.com/forms/d/1kQ35UwsMyn8riAXZwKUnV0NykDP-XHGqwX6-sp_tv1A/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+
+
+<div class="ss-form">
+  <script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='/';}"></iframe>
+<form action="https://docs.google.com/forms/d/1kQ35UwsMyn8riAXZwKUnV0NykDP-XHGqwX6-sp_tv1A/formResponse" method="post"
+target="hidden_iframe" onsubmit="submitted=true;">
+
+
+
+ <!--  <form action="https://docs.google.com/forms/d/1kQ35UwsMyn8riAXZwKUnV0NykDP-XHGqwX6-sp_tv1A/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""> -->
+
 <div class="ss-form-question errorbox-good">
 
 <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry"><label class="ss-q-item-label" for="entry_635158661">
@@ -347,10 +361,23 @@ dsfsdfsdf, Guatemala 90012</address>
 
 
 <div class="ss-item ss-navigate"><div class="ss-form-entry">
-<input type="submit" name="submit" value="Submit" id="ss-submit"></div></div>
-<div class="ss-secondary-text">Thank you for subnitting your mail!.</div></div></div></form></div>
+<a href="#submit" data-toggle="modal"><input type="submit" name="submit" value="Submit" id="ss-submit"></div></div></a>
+<div class="ss-secondary-text">Thank you for submitting your mail!.</div></div></div></form></div>
 
-
+<div id="submit" class="modal hide fade span5 offset3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header"> <h1> Mundo Maya <h2>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    
+  </div>
+  <div class="modal-body">
+    <h2>Thank you for contacting us!</h2>
+    <p>We will get back to you as soon as possible.</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    
+  </div>
+</div>
 
 
 
