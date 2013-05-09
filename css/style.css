@@ -713,6 +713,11 @@ vertical-align: middle;
 
 }
 
+.section.contact .info p {
+ 
+  text-align: justify;
+}
+
 .section.contact img {
 background-image: url(../img/face.png);
 background-repeat: no-repeat;

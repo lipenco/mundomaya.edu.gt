@@ -241,7 +241,7 @@ function calculateScroll() {
     var rangeTop  = 500;
     var rangeBottom = 500;
 
-    $('#nav').find('a').each(function(){
+    $('#navigation').find('a').each(function(){
       contentTop.push( $( $(this).attr('href') ).offset().top );
       contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
     })
@@ -249,9 +249,9 @@ function calculateScroll() {
     $.each( contentTop, function(i){
 
       if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
-        $('#nav li')
-        .removeClass('active')
-        .eq(i).addClass('active');
+        $('#navigation li')
+        .removeClass('current')
+        .eq(i).addClass('current');
       }
 
     })
@@ -270,6 +270,60 @@ function calculateScroll() {
   });
   
   
+  
+/*===========================================================*/
+/*  Carousel
+/*===========================================================*/
+$(function() {
+
+            
+
+            //  Scrolled by user interaction
+            $('#milestones-carousel').carouFredSel({
+                auto: false,
+        width: '100%',
+        prev : {
+              button      : "#prev2",
+              key         : "left",
+              items       : 1,
+              duration    : 750
+            },
+        next : {
+          button      : "#next2",
+          key         : "right",
+          items       : 1,
+          duration    : 750
+        },        
+                mousewheel: false,
+                swipe: {
+                    onMouse: false,
+                    onTouch: true
+                }
+            });
+      
+      
+      $('#testimonials-carousel').carouFredSel({
+                auto: true,
+        prev : {
+              button      : "#prev",
+              key         : "left",
+              items       : 1,
+              duration    : 750
+            },
+        next : {
+          button      : "#next",
+          key         : "right",
+          items       : 1,
+          duration    : 750
+        },
+        
+                mousewheel: false,
+                swipe: {
+                    onMouse: false,
+                    onTouch: true
+                }
+            });
+        });
   
 
 

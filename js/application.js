@@ -1,3 +1,3 @@
-$().ready(function(){
-  $('.scrollspy-menu').scrollspy();  
+$(document).ready(function() {
+$('#navbar').scrollspy()
 });
