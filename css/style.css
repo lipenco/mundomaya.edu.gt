@@ -719,15 +719,18 @@ vertical-align: middle;
 }
 
 .section.contact img {
-background-image: url(../img/face.png);
-background-repeat: no-repeat;
+background-image: url(../img/face3.png);
 height: 50px;
 width: 50px;
-margin-top: 
+
+
+
+
 
 }
 .section.contact img:hover {
-background-image: url(../img/face2.png);
+
+background-position: 0 -62px;
 
 }
 .contact .map {
