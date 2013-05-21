@@ -719,20 +719,19 @@ vertical-align: middle;
 }
 
 .section.contact img {
-background-image: url(../img/face3.png);
+background-image: url(../img/face3.png) ;
 height: 50px;
 width: 50px;
-
-
-
-
-
 }
+
 .section.contact img:hover {
 
 background-position: 0 -62px;
 
 }
+
+  
+
 .contact .map {
   padding: 0;
   border: none;
