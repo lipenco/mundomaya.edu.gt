@@ -201,14 +201,12 @@ input[type="color"]:hover,
 ------------------------- */
 
 
-.icon-map-marker {
 
-background-image: url("../img/glob2.png");
-}
-.contact .info address [class*="icon"] {
+.contact .info address img {
 position: absolute;
 left: 5px;
 top: 1px;
+width: 15px;
 }
 
 
@@ -721,13 +719,13 @@ vertical-align: middle;
   text-align: justify;
 }
 
-.section.contact img {
+.face{
 background-image: url(../img/face3.png) ;
 height: 50px;
 width: 50px;
 }
 
-.section.contact img:hover {
+.face:hover {
 
 background-position: 0 -62px;
 
@@ -757,7 +755,9 @@ background-position: 0 -62px;
 /* Footer
 ------------------------- */
 #colophon {
-background-color: #efebe0;
+background-color:  rgb(239, 235, 224);
+padding-bottom: 20px;
+
 }
 
 #colophon .copyright {
@@ -772,6 +772,7 @@ background-color: #efebe0;
 
 .footer {
   background-color: #efebe0;
+
 }
 /* 
  * LANDING PAGE
